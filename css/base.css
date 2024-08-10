@@ -139,7 +139,7 @@ a:focus-visible {
   pointer-events: none;
   justify-items: start;
   grid-template-columns: auto auto;
-  grid-template-areas: "title" "archive" "back" "github" "demos" "sponsor" "tags" "extra";
+  grid-template-areas: "title" "archive" "back" "github" "demos" "sponsor" "tags" ;
 }
 
 .frame #cdawrap {
@@ -180,10 +180,10 @@ a:focus-visible {
   gap: 1rem;
 }
 
-.frame__extra {
+/* .frame__extra {
   grid-area: extra;
   justify-self: start;
-}
+} */
 
 .content {
   display: flex;
